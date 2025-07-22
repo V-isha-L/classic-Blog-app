@@ -1,0 +1,23 @@
+# Node modules (they are HUGE and rebuilt from package.json)
+node_modules/
+
+# Logs (traces of local execution)
+logs
+*.log
+npm-debug.log*
+
+# System files (irrelevant to project)
+.DS_Store
+Thumbs.db
+
+# Environment variables (never share secrets)
+.env
+
+# IDE settings (user-specific)
+.vscode/
+.idea/
+
+# Optional: OS-specific or temp files
+*.swp
+*.swo
+*.tmp
